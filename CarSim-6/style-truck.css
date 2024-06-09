@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+
+}
+
+.road {
+    width: 100%;
+}
+
+.road img {
+    width: 100%;
+}
+
+.delay {
+    animation-delay: -4s;
+}
+
+.truck {
+    width: 13%;
+    left: -20%;
+    padding-top: -1%;
+    display: block;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    background-repeat: repeat-x;
+    animation: truck2 7.2s linear infinite;
+    animation-delay: 4s;
+}
+
+.truck img {
+    width: 174%;
+
+    animation: truck 1s linear infinite;
+
+}
+
+@keyframes truck {
+    100% {
+        transform: translateY(-1px);
+    }
+
+    50% {
+        transform: translateY(1px);
+    }
+
+    0% {
+        transform: translateY(-1px);
+    }
+}
+
+@keyframes truck2 {
+    100% {
+        transform: translateX(1000%);
+    }
+
+   
+}
+
+.Twheel {
+    width: 2.45%;
+    height: 2.45%;
+    left: -12.5%;
+    padding-top: 4.2%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    display: block;
+    background-repeat: repeat-x;
+
+    animation: Twheel2 7.2s linear infinite;
+    animation-delay: 4s;
+}
+
+.Twheel img {
+    width: 70%;
+    animation: Twheel 1s linear infinite;
+
+}
+
+.TwheelFront {
+    width: 2.45%;
+    height: 2.45%;
+    left: -12.5%;
+    padding-top: 4.2%;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    display: block;
+    background-repeat: repeat-x;
+
+    animation: Twheel2 7.2s linear infinite;
+    animation-delay: 4s;
+}
+
+.TwheelFront img {
+    width: 77.5%;
+    animation: Twheel 1s linear infinite;
+
+}
+
+.front-Twheel {
+    left: 274%;
+    position: absolute;
+}
+
+.back-Twheel {
+    left: -225%;
+    position: absolute;
+}
+
+.back2-Twheel {
+
+    left: -300%;
+    position: absolute;
+}
+
+.back3-Twheel {
+
+    left: -385%;
+    position: absolute;
+}
+
+@keyframes Twheel {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes Twheel2 {
+    100% {
+        transform: translateX(5526%);
+    }
+
+   
+}
